@@ -1,0 +1,15 @@
+RPG,The Elder Scrolls V: Skyrim,Bethesda Game Studios,2011,PC,Jugado,60,1
+Shooter,Halo: Reach,Bungie,2010,Xbox 360,Jugado,30,Si
+Puzzle,Tetris Effect,Monstars Inc.,2018,PlayStation 4,Jugado,20,Media
+RPG,Final Fantasy XV,Square Enix,2016,PlayStation 4,No jugado,40,4
+Shooter,Doom,Id Software,2016,PC,Jugado,20,Si
+Puzzle,The Witness,Thekla Inc.,2016,Xbox One,No jugado,40,Alta
+RPG,Persona 5,Atlus,2017,PlayStation 4,Jugado,100,1
+Shooter,Gears of War 4,The Coalition,2016,PC,No jugado,30,Si
+Puzzle,Inside,Playdead,2016,PC,Jugado,4,Alta
+RPG,Dark Souls III,FromSoftware,2016,PlayStation 4,Jugado,60,1
+Shooter,Titanfall 2,Respawn Entertainment,2016,Xbox One,Jugado,10,Si
+Puzzle,Fez,Polytron Corporation,2012,PlayStation 3,No jugado,8,Baja
+RPG,Dragon Age: Inquisition,BioWare,2014,PC,Jugado,80,1
+Shooter,Borderlands 3,Gearbox Software,2019,PlayStation 4,No jugado,30,Si
+Puzzle,Braid,Number None Inc.,2008,Xbox 360,Jugado,4,Media

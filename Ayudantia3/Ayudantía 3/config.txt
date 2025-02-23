@@ -1,0 +1,13 @@
+4
+Black TPU,29990
+Blue,16990
+Green,17990
+Matte Black,18990
+Matte Green,17950
+Orange,33990
+Purple,25990
+Red,15990
+Red TPU,36990
+Silver,21990
+Wood PLA,35990
+Yellow,14990

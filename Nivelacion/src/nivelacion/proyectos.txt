@@ -1,0 +1,5 @@
+0,daniel contreras,25
+2,jorge rivera,30
+1,daniel contreras,20
+0,jorge rivera,40
+2,daniel contreras,25

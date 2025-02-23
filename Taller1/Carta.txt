@@ -1,0 +1,5 @@
+Chapsui de pollo, básico,5500
+Chapsui de carne, básico,6000 
+Sushi,premium,10000 
+Arroz,básico,3000
+ 

@@ -1,0 +1,15 @@
+101;Juan Pérez;activa;5
+102;María López;completada;3
+103;Carlos González;activa;7
+104;Ana Martínez;completada;4
+105;Pedro Rodríguez;activa;6
+106;Luisa Gómez;completada;2
+107;Roberto Sánchez;activa;8
+108;Laura Ramírez;completada;1
+109;Sofía Fernández;activa;9
+110;Jorge Ruiz;completada;5
+111;Isabela Rojas;activa;10
+112;Miguel Castro;completada;3
+113;Valeria Díaz;activa;11
+114;Diego Torres;completada;2
+115;Lucía Herrera;activa;12

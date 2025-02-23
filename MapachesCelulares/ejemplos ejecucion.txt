@@ -1,0 +1,157 @@
+Ejemplo 1:
+*******************************************************************************
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 0, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 0
+El jugador 1 ha ganado!
+
+
+*******************************************************************************
+Ejemplo 2:
+*******************************************************************************
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 0, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 1
+Qué mapache quieres mover? 30
+Hacia dónde quieres moverlo? (N/S/E/O) E
+Compiten 30/RENATA con 501/FRANCISCA: gana RENATA
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ _ 30 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 1, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 1
+Qué mapache quieres mover? 6
+Hacia dónde quieres moverlo? (N/S/E/O) E
+Compiten 6/CRISTINA con 2/PEDRO: gana PEDRO
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ _ 30 
+_ _ _ _ 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 0, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 1
+Qué mapache quieres mover? 2
+Hacia dónde quieres moverlo? (N/S/E/O) N
+Compiten 2/PEDRO con 30/RENATA: gana RENATA
+El jugador 0 ha ganado!
+
+
+*******************************************************************************
+Ejemplo 3:
+*******************************************************************************
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 0, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 1
+Qué mapache quieres mover? 2
+Hacia dónde quieres moverlo? (N/S/E/O) E
+No se puede mover en esa dirección!
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 1, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 3
+Qué mapache quieres ver? 6
+6/CRISTINA tiene una masa de 900
+y vive en la celda 2x3
+
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 0, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 2
+Qué mapache quieres alimentar? 6
+CRISTINA ahora tiene una masa de 990
+
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 1, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 3
+Qué mapache quieres ver? 6
+6/CRISTINA tiene una masa de 990
+y vive en la celda 2x3
+
+Esta es la situación actual:
+_ _ _ _ _ 
+_ _ _ 30 501 
+_ _ _ 6 2 
+_ _ _ _ _ 
+_ _ _ _ _ 
+
+Jugador 0, ¿qué quieres hacer?
+0. Rendirte
+1. Mover un mapache
+2. Alimentar un mapache
+3. Ver información de un mapache
+> 0
+El jugador 1 ha ganado!
+ 
+

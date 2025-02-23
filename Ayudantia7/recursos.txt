@@ -1,0 +1,13 @@
+libro,El principito,Antoine de Saint-Exupery,1943,infantil,96,1
+libro,Cinco semanas en globo, Jules Verne,1863,aventuras,288,1
+libro,Un mundo feliz,Aldous Huxley,1932,sci-fi,211,2
+libro,Fahrenheit 451,Ray Bradbury,1953,sci-fi,242,3
+libro,Cronicas marcianas,Ray Bradbury,1950,sci-fi,263,1
+libro,Misery,Stephen King,1987,thriller,376,2
+libro,La casa de los espiritus,Isabel Allende,1987,realismo magico,464,3
+video,Cosmos,Carl Sagan,1980,educativo,VHS,si
+video,Friends: temporada 1,Marta Kauffman,1994,comedia,DVD,si
+video,El origen del universo,United State The Learning Chanel,1993,educativo,VHS,si
+video,The office: temporada 2,Greg Daniels,2006,comedia,CD,no
+video,Jurassic Park,Steven Spielberg,1993,aventuras,DVD,si
+video,The Last Dance,Jason Hehir,2020,deportes,BLU-RAY,no

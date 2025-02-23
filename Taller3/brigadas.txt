@@ -1,0 +1,6 @@
+coquimbo,1500,Maritima,Terrestre
+serena,2000,Maritima,Terrestre,Aerea
+santiago,5000000,Maritima,Terrestre,Aerea
+copiapo,20,Terrestre
+arica,3000,Terrestre,Maritima
+curico,3500,Maritima,Aerea

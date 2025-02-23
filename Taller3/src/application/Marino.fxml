@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5" minHeight="600.0" minWidth="900.0" orientation="VERTICAL" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MarinoController">
+	<items>
+		<VBox spacing="10.0">
+			<children>
+				<AnchorPane prefHeight="47.0" prefWidth="296.0">
+					<children>
+						<Label layoutX="14.0" layoutY="6.0" text="Marino Menu" AnchorPane.leftAnchor="14.0">
+							<font>
+								<Font name="Consolas" size="34.0" />
+							</font>
+						</Label>
+						<Button layoutX="237.0" layoutY="11.0" mnemonicParsing="false" onAction="#volverMenu" text="Volver al Menú" AnchorPane.rightAnchor="7.0" />
+					</children>
+				</AnchorPane>
+				<TabPane tabClosingPolicy="UNAVAILABLE" tabMinHeight="25.0" tabMinWidth="120.0" VBox.vgrow="ALWAYS">
+					<tabs>
+						<Tab text="Info">
+							<content>
+								<GridPane gridLinesVisible="true" prefWidth="491.0">
+									<columnConstraints>
+										<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+										<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+									</columnConstraints>
+									<rowConstraints>
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+										<RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+									</rowConstraints>
+									<children>
+										<Label fx:id="l1" text="Nombre">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="nombre" text="String" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l2" text="Rut" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="rut" text="String" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l3" text="cede" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="cede" text="String" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l4" text="embarcacion" GridPane.rowIndex="3">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="embarcacion" text="String" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="l5" text="puesto de embarcacion" GridPane.rowIndex="4">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+										<Label fx:id="puestoEmbarcacion" text="String" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <GridPane.margin>
+                                    <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+                                 </GridPane.margin>
+                                 <font>
+                                    <Font name="Consolas" size="30.0" />
+                                 </font></Label>
+									</children>
+									<padding>
+										<Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+									</padding>
+								</GridPane>
+							</content>
+						</Tab>
+							<Tab text="Actividades">
+							<content>
+								<VBox prefHeight="200.0" prefWidth="100.0">
+									<children>
+                              <ScrollPane>
+                                 <content>
+                                    <Accordion fx:id="actividadesAccordion" />
+                                 </content>
+                              </ScrollPane>
+										<Label text="Nombre de nueva actividad" />
+										<TextField fx:id="nombreActividad" text=" " />
+										<Label layoutX="10.0" layoutY="85.0" text="Descripcion de nueva actividad" />
+										<TextField fx:id="descripcionActividad" layoutX="10.0" layoutY="95.0" />
+										<Label layoutX="10.0" layoutY="120.0" text="Prioridad de Actividad" />
+										<ChoiceBox fx:id="priorityBox" prefWidth="150.0" />
+										<Button fx:id="agregarActivadadBoton" mnemonicParsing="false" onAction="#agregarActividad" text="Agregar" />
+										<Button layoutX="10.0" layoutY="300.0" mnemonicParsing="false" onAction="#eliminarActividad" text="Eliminar Ultima actividad" />
+									</children>
+								</VBox>
+							</content>
+						</Tab>
+						<Tab fx:id="menuCapitanTab" disable="true" text="Capitan Menu">
+							<content>
+								<VBox prefHeight="200.0" prefWidth="100.0" />
+							</content>
+							<content>
+								<SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0">
+									<items>
+										<VBox prefHeight="385.0" prefWidth="271.0">
+											<children>
+												<Label text="Promover puesto (volver Marinero)" />
+												<TextField fx:id="promoverPuestoNombreField" promptText="nombre" />
+                                    <TextField fx:id="promoverPuestoRutField" layoutX="10.0" layoutY="27.0" promptText="rut" />
+												<Button mnemonicParsing="false" onAction="#ascenderGrumete" text="Continuar" />
+												<Label text="Descender Puesto (volver Grumete)">
+													<VBox.margin>
+														<Insets top="20.0" />
+													</VBox.margin>
+												</Label>
+												<TextField fx:id="descenderPuestoNombreField" promptText="nombre" />
+                                    <TextField fx:id="descenderPuestoRutField" layoutX="10.0" layoutY="53.0" promptText="rut" />
+												<Button mnemonicParsing="false" onAction="#descenderMarinero" text="Continuar" />
+											</children>
+										</VBox>
+										<VBox>
+											<children>
+												<Label text="Marinos en embarcacion: " />
+                                    <ScrollPane prefHeight="239.0" prefWidth="271.0">
+                                       <content>
+      												<Label fx:id="grumetesMarinerosLabel" text=" " />
+                                       </content>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </ScrollPane>
+											</children>
+										</VBox>
+									</items>
+								</SplitPane>
+							</content>
+						</Tab>
+					</tabs>
+					<VBox.margin>
+						<Insets />
+					</VBox.margin>
+				</TabPane>
+			</children>
+		</VBox>
+		<Label text="X Company">
+			<font>
+				<Font name="Consolas" size="15.0" />
+			</font>
+		</Label>
+	</items>
+</SplitPane>

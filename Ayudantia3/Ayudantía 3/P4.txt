@@ -1,0 +1,15 @@
+36987-1705,24.72,Verdadero,Orange
+52257-1209,20.89,Verdadero,Matte Black
+51514-0337,39.23,Verdadero,Matte Green
+60429-104,51.64,Falso,Matte Black
+63629-4514,61.28,Verdadero,Matte Green
+75857-2155,42.44,Falso,Green
+0268-6509,22.7,Falso,Wood PLA
+37205-591,51.48,Falso,Purple
+61722-040,66.07,Verdadero,Blue
+58118-5016,8.13,Verdadero,Silver
+61084-126,17.76,Verdadero,Orange
+68026-543,13.22,Falso,Blue
+55910-214,49.21,Falso,Wood PLA
+68308-325,20.03,Falso,Matte Green
+37808-092,34.91,Falso,Matte Black

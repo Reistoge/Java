@@ -1,0 +1,15 @@
+101;Sencilla;100;Sí
+102;Doble;150;2
+103;Suite;200;No
+104;Sencilla;110;No
+105;Doble;160;2
+106;Suite;220;Sí
+107;Sencilla;105;Sí
+108;Doble;155;2
+109;Suite;210;No
+110;Sencilla;115;No
+111;Doble;165;2
+112;Suite;230;Sí
+113;Sencilla;120;Sí
+114;Doble;170;2
+115;Suite;240;No

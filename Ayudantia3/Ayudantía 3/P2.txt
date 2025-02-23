@@ -1,0 +1,36 @@
+37808-253,55.41,Verdadero,Green
+15828-206,41.91,Falso,Red
+52709-1001,67.62,Verdadero,Green
+63824-122,9.13,Verdadero,Red
+65044-1453,2.51,Verdadero,Wood PLA
+75874-424,68.19,Falso,Blue
+55910-908,61.51,Verdadero,Matte Black
+0009-3448,12.18,Falso,Red TPU
+10812-439,11.61,Falso,Red TPU
+51672-5263,36.47,Falso,Blue
+63941-520,48.58,Verdadero,Yellow
+36800-041,36.9,Verdadero,Matte Black
+68788-9024,29.71,Falso,Silver
+0615-6567,53.33,Verdadero,Blue
+62750-016,52.6,Verdadero,Silver
+55316-951,3.57,Verdadero,Matte Green
+63323-026,41.58,Verdadero,Yellow
+52810-401,10.3,Falso,Orange
+13537-286,12.24,Verdadero,Green
+54838-556,28.28,Falso,Matte Green
+65952-575,17.32,Verdadero,Matte Black
+52544-950,2.09,Verdadero,Orange
+17089-406,27.48,Falso,Red
+49230-188,19.91,Falso,Green
+33261-684,7.58,Verdadero,Yellow
+49348-130,49.55,Falso,Wood PLA
+31720-102,10.43,Verdadero,Silver
+52584-467,42.49,Falso,Wood PLA
+36987-1027,51.01,Verdadero,Wood PLA
+10812-527,15.18,Verdadero,Silver
+68786-130,45.25,Verdadero,Green
+52125-878,30.33,Falso,Silver
+47682-170,1.81,Falso,Matte Green
+16729-228,67.31,Verdadero,Green
+49643-310,18.23,Falso,Green
+0280-1410,26.47,Falso,Blue

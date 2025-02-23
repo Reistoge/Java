@@ -1,0 +1,3 @@
+mondo,2,11111-1,jose dueñas,98561,exotico,cuye,pequeño
+manchas,5,11111-1,jose dueñas,98561,comun,gato,siames
+firulais,8,2222-2,marcela jofre,655461,comun,perro,salchicha

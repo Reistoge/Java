@@ -1,0 +1,3 @@
+Kingda Ka,MontañaRusa,12,10
+Mansión McKamey,CasaDelTerror,15,20
+Singapore Flyer,RuedaDeLaFortuna,10,15

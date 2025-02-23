@@ -1,0 +1,15 @@
+Juan Pérez;Savings;1000.0;0.03
+María Gómez;Checking;500.0;50.0
+Carlos Sánchez;Vista;2000.0;Debito
+Ana López;Savings;1500.0;0.02
+Luis Fernández;Checking;700.0;30.0
+Elena García;Vista;2500.0;Credito
+Pedro Martínez;Savings;2000.0;0.04
+Laura Jiménez;Checking;1000.0;40.0
+José Ramírez;Vista;1500.0;Debito
+Sofía Torres;Savings;1200.0;0.025
+Diego Herrera;Checking;800.0;25.0
+Gabriela Ruiz;Vista;3000.0;Credito
+Andrés Morales;Savings;1800.0;0.035
+Patricia Díaz;Checking;600.0;35.0
+Marta Castillo;Vista;2200.0;Debito

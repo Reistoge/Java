@@ -1,0 +1,39 @@
+RealAction,The Matrix,1999,Sci-Fi/Action,Wachowski Brothers,Keanu Reeves/Carrie-Anne Moss/Laurence Fishburne
+Animated,Toy Story,1995,Comedy/Adventure,Pixar Animation Studios,3D
+RealAction,Die Hard,1988,Action/Thriller,John McTiernan,Bruce Willis
+Animated,Frozen,2013,Adventure/Fantasy,Walt Disney Animation Studios,3D
+RealAction,Inception,2010,Sci-Fi/Thriller,Christopher Nolan,Leonardo DiCaprio/Joseph Gordon-Levitt/Ellen Page
+Animated,Shrek,2001,Comedy/Adventure,DreamWorks Animation,3D
+RealAction,The Dark Knight,2008,Action/Crime,Christopher Nolan,Christian Bale/Heath Ledger/Aaron Eckhart
+Animated,Spirited Away,2001,Fantasy/Adventure,Studio Ghibli,2D
+RealAction,Terminator 2: Judgment Day,1991,Sci-Fi/Action,James Cameron,Arnold Schwarzenegger/Linda Hamilton/Edward Furlong
+Animated,Finding Nemo,2003,Adventure/Comedy,Pixar Animation Studios,3D
+RealAction,The Shawshank Redemption,1994,Drama/Crime,Frank Darabont,Tim Robbins/Morgan Freeman
+Animated,The Lion King,1994,Adventure/Family,Walt Disney Animation Studios,2D
+RealAction,Fight Club,1999,Drama/Thriller,David Fincher,Brad Pitt/Edward Norton/Helena Bonham Carter
+Animated,Up,2009,Adventure/Comedy,Pixar Animation Studios,3D
+RealAction,Pulp Fiction,1994,Crime/Drama,Quentin Tarantino,John Travolta/Uma Thurman/Samuel L. Jackson
+Animated,Moana,2016,Adventure/Comedy,Walt Disney Animation Studios,3D
+RealAction,Gladiator,2000,Action/Drama,Ridley Scott,Russell Crowe/Joaquin Phoenix/Connie Nielsen
+Animated,How to Train Your Dragon,2010,Adventure/Action,DreamWorks Animation,3D
+RealAction,The Godfather,1972,Crime/Drama,Francis Ford Coppola,Marlon Brando/Al Pacino/James Caan
+Animated,WALL-E,2008,Sci-Fi/Comedy,Pixar Animation Studios,3D
+RealAction,The Silence of the Lambs,1991,Crime/Drama,Jonathan Demme,Jodie Foster/Anthony Hopkins/Scott Glenn
+Animated,Ratatouille,2007,Comedy/Adventure,Pixar Animation Studios,3D
+RealAction,Saving Private Ryan,1998,Drama/War,Steven Spielberg,Tom Hanks/Matt Damon/Tom Sizemore
+Animated,The Incredibles,2004,Action/Adventure,Pixar Animation Studios,3D
+RealAction,Forrest Gump,1994,Drama/Romance,Robert Zemeckis,Tom Hanks/Robin Wright/Gary Sinise
+Animated,Beauty and the Beast,1991,Family/Fantasy,Walt Disney Animation Studios,2D
+RealAction,The Departed,2006,Crime/Drama,Martin Scorsese,Leonardo DiCaprio/Matt Damon/Jack Nicholson
+Animated,Zootopia,2016,Adventure/Comedy,Walt Disney Animation Studios,3D
+RealAction,The Lord of the Rings: The Fellowship of the Ring,2001,Adventure/Fantasy,Peter Jackson,Elijah Wood/Ian McKellen/Viggo Mortensen
+Animated,Toy Story 3,2010,Comedy/Adventure,Pixar Animation Studios,3D
+RealAction,The Green Mile,1999,Crime/Drama,Frank Darabont,Tom Hanks/Michael Clarke Duncan/David Morse
+Animated,Inside Out,2015,Comedy/Adventure,Pixar Animation Studios,3D
+RealAction,The Matrix Reloaded,2003,Action/Sci-Fi,Wachowski Brothers,Keanu Reeves/Laurence Fishburne/Carrie-Anne Moss
+Animated,Kung Fu Panda,2008,Action/Comedy,DreamWorks Animation,3D
+RealAction,Se7en,1995,Crime/Drama,David Fincher,Morgan Freeman/Brad Pitt/Kevin Spacey
+Animated,Toy Story 2,1999,Comedy/Adventure,Pixar Animation Studios,3D
+RealAction,The Usual Suspects,1995,Crime/Drama,Bryan Singer,Kevin Spacey/Gabriel Byrne/Chazz Palminteri
+Animated,Finding Dory,2016,Adventure/Comedy,Pixar Animation Studios,3D
+RealAction,The Lord of the Rings: The Return of the King,2003,Adventure/Fantasy,Peter Jackson,Elijah Wood/Ian McKellen/Viggo Mortensen

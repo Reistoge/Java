@@ -1,0 +1,10 @@
+Juan,25,Kingda Ka,Mansión McKamey
+Maria,30,Mansión McKamey
+Pedro,20,Singapore Flyer
+Laura,15,Mansión McKamey,Singapore Flyer
+Carlos,22,The Giant Drop,Kingda Ka
+Ana,18,Space Mountain
+Luis,28,Singapore Flyer,Kingda Ka,Mansión McKamey
+Sofía,14,Mansión McKamey
+Jorge,35,Kingda Ka,Singapore Flyer
+Lucía,27,Space Mountain,Mansión McKamey
