@@ -1,0 +1,86 @@
+EVALUACIÓN I-2025 - RESPUESTAS
+// Ferran Rojas
+
+1. PATRONES DE DISEÑO IMPLEMENTADOS
+
+1.1 Para el calculo de descuentos:
+- Patrón Strategy
+Este patrón nos permite encapsular diferentes algoritmos
+de descuento en clases separadas que implementan una interfaz común (IDescuentoStrategy).
+
+Beneficios y mejoras:
+- Menor acoplamiento entre GerenciadosDescuentos y la logica de calculo de cada descuento
+- Cumple con el principio Open/Closed y Single Responsibility
+- Se cumplen los principios de Open/Closed y SRP (Responsabilidad unica).
+- Separar los tipo de descuento en su propia clase encapsulada.
+- Agregar nuevos descuentos a nuestro sistema facilmente sin tener que modificar el codigo original
+
+1.2 Para controlar el acceso de datos por el cliente:
+- Patrón Proxy
+Este patron nos permite controlar el acceso de ciertos objetos
+en nuestro sistema mediante la inyeccion de una interfaz (ClienteProxy),
+en este caso buscamos reducir el procesamiento de datos controlando la forma en la cual son obtenidos.
+Beneficios y mejoras
+- Se reduce el procesamiento de datos ya que no tenemos que hacer consultas las cuales ya estan guardadas en memoria (en este caso un archivo .csv).
+- Oculta la implementación del acceso a datos (archivo CSV vs base de datos)
+- Aplica el principio de menor privilegio y mejoramos la seguridad como el control de acceso.
+
+1.3 Configuración duplicada:
+- Patrón Singleton
+
+Este patron nos asegura que exista una sola instancia y un acceso global de esta y es justamente
+lo que buscamos para la configuracion de nuestro programa
+Gracias a este patron nuestro programa:
+- Tenemos acceso global de la configuracion
+- No tenemos instancias duplicadas de ConfiguracionSistema por lo tanto
+ evitamos duplicacion de datos.
+- Nos facilita mantener parametros globales como config.
+- Aplica el principio SRP (Responsabilidad unica)
+
+2. IMPLEMENTACIÓN Y CAMBIOS EN EL MAIN
+
+Los cambios de implementacion para poder refactorizar el sistema fueron:
+
+2.1 Strategy Pattern (cl.ucn.strategy):
+- Se creó la interfaz DescuentoStrategy
+- En el Main se tuvo que modificar el GerenciadorDescuento para usar las estrategias
+- Se crearon e implementaron clases concretas para cada tipo de descuento
+
+2.2 Proxy Pattern (cl.ucn.proxy):
+- Se creó la interfaz IClienteDAO
+- Se crearon clases ClienteDBDAO y ClienteFileDAO las cuales implementan la nueva interfaz
+- Se creo la clase ClienteProxy para gestionar el acceso la cual tambien implementa IClienteDAO
+- En el Main se tuvo que reemplazar el acceso directo por ClienteProxy
+
+2.3 Singleton Pattern en (cl.ucn.config):
+- Se creo la clase ConfiguracionSistema como un Singleton
+- Se centralizaron las configuraciones como la fecha actual
+- La configuracion son ahora de acceso global como la fecha actual.
+- En el Main, se reemplazó la fecha que estaba escrita directamente escrita en codigo
+o "hardcodeada" por ConfiguracionSistema.getInstance()
+
+Los cambios mantienen la funcionalidad original del sistema y se mejoran aspectos como:
+- Mantenibilidad del código
+- Extensibilidad cuando se requieran nuevos tipos de descuentos
+- Control al acceso de datos
+- acceso global de la configuración
+- Reducimos el acoplamiento entre clases
+- Aumentamos la cohesión de las clases
+
+Se han seguido los principios SOLID y buenas prácticas de diseño como:
+- SRP (Single Responsibility Principle - Responsabilidad unica)
+- OCP (Open/Closed Princple - Abierto a extension pero cerrado a modificaciones)
+- ISP (Interface Segregation Principle - Segregacion de interfaces)
+- DIP (Dependency Inversion - Inversion de dependecias)
+- Preferir la Composición frente herencia
+- Encapsulamiento
+- Alta cohesión y bajo acoplamiento.
+
+Aclaracion respecto al codigo del patron Proxy (CLienteDBDAO y ClienteFileDAO)
+y otros aspectos relacionados con el uso de Frameworks desconocidos por el estudiante.
+
+Se intento hacer una llamada a la base de datos y
+al CSV pero debido a que esos contenidos son desconocidos por el estudiante es por eso que
+solo fue posible para esta seccion de codigo integrar el patron correctamente
+a la estructura que fue lo que en teoria fue visto en clases, ademas a lo largo de la evaluacion fue dificil
+hacer debug ya que no se pudo integrar correctamente javafx.

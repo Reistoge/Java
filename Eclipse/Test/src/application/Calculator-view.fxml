@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootContainer" alignment="CENTER" spacing="10" style="-fx-background-color: linear-gradient(to right, #ff5600, #634800); -fx-padding: 20;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CalculatorController">
+
+          <Pane fx:id="mainPane" style="-fx-background-color: rgba(0, 0, 0, 0.7); -fx-background-radius: 10; -fx-padding: 20; -fx-min-width: 50%; -fx-min-height: 50%; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 4);">
+        <VBox alignment="CENTER" layoutX="323.0" layoutY="28.0" prefHeight="339.0" prefWidth="173.0" spacing="10">
+            <Label style="-fx-font-size: 18px; -fx-text-fill: white;" text="Resultados" />
+
+                                 <Label style="-fx-text-fill: white;" text="Base 2" />
+            <TextField id="base2Field" fx:id="base2Field" editable="false" promptText="Valor en base 2" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+
+                                 <Label style="-fx-text-fill: white;" text="Base 10" />
+            <TextField id="base10Field" fx:id="base10Field" editable="false" promptText="Valor en base 10" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+
+                                 <Label style="-fx-text-fill: white;" text="Base 8" />
+            <TextField id="base8Field" fx:id="base8Field" editable="false" promptText="Valor en base 8" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+
+                                 <Label style="-fx-text-fill: white;" text="Base 16" />
+            <TextField id="base16Field" fx:id="base16Field" editable="false" promptText="Valor en base 16" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+
+                                 <Label style="-fx-text-fill: white;" text="Base N" />           
+            <TextField id="baseNField" fx:id="baseNField" editable="false" promptText="Valor en Base N" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+        </VBox>
+        <VBox alignment="CENTER" layoutX="46.0" layoutY="28.0" spacing="10">
+            <Label style="-fx-font-size: 20px; -fx-text-fill: white;" text="Number Base Converter" />
+   
+                                    <Label id="inputTransformar" style="-fx-text-fill: white;" text="Valor a transformar" />
+            <TextField id="inputTransformar" fx:id="inputTransformar" promptText="Valor a transformar" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+   
+                                    <Label id="inputBaseInicial" style="-fx-text-fill: white;" text="Base Inicial (2-35)" />
+            <TextField id="inputBaseInicial" fx:id="inputBaseInicial" promptText="Base (2-35)" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+   
+                                    <Label id="inputBaseNueva" style="-fx-text-fill: white;" text="Nueva Base" />
+            <TextField id="inputBaseNueva" fx:id="inputBaseNueva" promptText="Nueva Base (2-35)" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+   
+                                    <Label id="inputPrecision" style="-fx-text-fill: white;" text="Precision" />
+            <TextField id="inputPrecision" fx:id="inputPrecision" promptText="Valor precision" style="-fx-background-color: rgba(69, 69, 69, 0.2); -fx-text-fill: white;" />
+        </VBox>
+
+                                    <Button id="restablecerValoresButton" fx:id="restablecerValoresButton" defaultButton="true" layoutX="91.0" layoutY="350.0" onAction="#resetValues" style="-fx-background-color: #2575fc; -fx-text-fill: white; -fx-padding: 10; -fx-background-radius: 5;" text="Restablecer valores" />
+    </Pane>
+</VBox>
